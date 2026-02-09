@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seguro RC Profissional | Efatá Seguros Corretora de Seguros</title>
+
+<style>
+:root{
+  --primary:#0F2A44;
+  --secondary:#1E5AA8;
+  --accent:#2ECC71;
+  --light:#F4F6F8;
+}
+
+*{box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}
+
+body{
+  margin:0;
+  background:var(--light);
+  color:#333;
+}
+
+header{
+  background:var(--primary);
+  color:#fff;
+  padding:40px 20px;
+  text-align:center;
+}
+
+header h1{
+  font-size:1.8rem;
+  margin-bottom:10px;
+}
+
+header p{
+  font-size:1rem;
+  opacity:.9;
+}
+
+.container{
+  max-width:480px;
+  margin:auto;
+  padding:20px;
+}
+
+.card{
+  background:#fff;
+  border-radius:12px;
+  padding:25px;
+  box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.benefits{
+  margin-bottom:25px;
+}
+
+.benefits li{
+  margin:10px 0;
+  list-style:none;
+  padding-left:24px;
+  position:relative;
+}
+
+.benefits li::before{
+  content:"✔";
+  position:absolute;
+  left:0;
+  color:var(--accent);
+  font-weight:bold;
+}
+
+label{
+  font-weight:bold;
+  display:block;
+  margin:12px 0 5px;
+}
+
+input, select{
+  width:100%;
+  padding:12px;
+  border-radius:8px;
+  border:1px solid #ccc;
+}
+
+button{
+  width:100%;
+  background:var(--secondary);
+  color:#fff;
+  padding:15px;
+  border:none;
+  border-radius:10px;
+  font-size:1.1rem;
+  margin-top:20px;
+  cursor:pointer;
+}
+
+button:hover{
+  background:#154a8a;
+}
+
+footer{
+  text-align:center;
+  font-size:.85rem;
+  margin-top:20px;
+  color:#555;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Seguro RC Profissional</h1>
+  <p>Proteja sua carreira contra processos, erros e imprevistos</p>
+</header>
+
+<div class="container">
+  <div class="card">
+
+    <ul class="benefits">
+      <li>Cobertura para erros, omissões e negligência</li>
+      <li>Custos jurídicos e indenizações inclusos</li>
+      <li>Proteção direta do seu CPF e patrimônio</li>
+      <li>Atendimento humano e especializado</li>
+    </ul>
+
+    <!-- FORMULÁRIO -->
+    <form action="https://api.web3forms.com/submit" method="POST">
+      <!-- SUBSTITUA PELA SUA ACCESS_KEY -->
+      <input type="hidden" name="access_key" value="bdf5e2f1-5680-479d-b6de-10f2e7ec7e16">
+      <input type="hidden" name="redirect" value="obrigado.html">
+
+      <label>Nome Completo</label>
+      <input type="text" name="nome" required>
+
+      <label>WhatsApp</label>
+      <input type="tel" name="whatsapp" required>
+
+      <label>E-mail</label>
+      <input type="email" name="email" required>
+
+      <label>Profissão</label>
+      <input type="text" name="profissao" required>
+
+      <label>Faturamento Mensal (opcional)</label>
+      <select name="faturamento">
+        <option>Até R$ 5.000</option>
+        <option>R$ 5.001 a R$ 15.000</option>
+        <option>R$ 15.001 a R$ 30.000</option>
+        <option>Acima de R$ 30.000</option>
+      </select>
+
+      <button type="submit">Quero minha cotação agora</button>
+    </form>
+
+  </div>
+
+  <footer>
+    © Efatá Seguros Corretora de Seguros Humaniza<br>
+    Atendimento ético, humano e especializado
+  </footer>
+</div>
+
+</body>
+</html>
