@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Efatá Seguros-Pacote Seguro Clínica/Odontológica</title>
+
+<style>
+:root{
+  --azul:#0b1f33;
+  --azul2:#12385a;
+  --verde:#20c36a;
+  --texto:#ffffff;
+}
+
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  font-family:'Segoe UI',Arial,sans-serif;
+  background:linear-gradient(135deg,var(--azul),var(--azul2));
+}
+
+.container{
+  max-width:1100px;
+  margin:50px auto;
+  background:#fff;
+  border-radius:16px;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  overflow:hidden;
+  box-shadow:0 30px 70px rgba(0,0,0,.35);
+}
+
+.form{
+  padding:45px;
+  background:#ffffff;
+}
+
+.form h2{
+  margin-top:0;
+  font-size:28px;
+  color:var(--azul);
+}
+
+.form p{
+  font-size:15px;
+  color:#555;
+}
+
+label{
+  font-size:14px;
+  font-weight:600;
+  margin-top:12px;
+  display:block;
+}
+
+input,select{
+  width:100%;
+  padding:13px;
+  margin-top:6px;
+  border-radius:7px;
+  border:1px solid #ccd6e0;
+}
+
+button{
+  width:100%;
+  background:var(--verde);
+  color:#fff;
+  border:none;
+  padding:18px;
+  font-size:17px;
+  font-weight:bold;
+  border-radius:10px;
+  margin-top:25px;
+  cursor:pointer;
+}
+
+button:hover{background:#18a85a}
+
+.copy{
+  padding:55px;
+  background:linear-gradient(160deg,#0b1f33,#12385a);
+  color:var(--texto);
+}
+
+.copy h1{
+  font-size:34px;
+  line-height:1.25;
+  margin-top:0;
+}
+
+.copy p{
+  font-size:16px;
+  line-height:1.6;
+  margin:20px 0 30px;
+}
+
+.block{
+  background:rgba(255,255,255,.08);
+  padding:16px;
+  border-radius:10px;
+  margin-bottom:14px;
+  font-size:15px;
+}
+
+.block strong{
+  color:var(--verde);
+}
+
+.footer{
+  margin-top:30px;
+  font-size:14px;
+  opacity:.95;
+}
+
+@media(max-width:900px){
+  .container{grid-template-columns:1fr}
+  .copy{order:-1}
+}
+</style>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '573851558376970');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=573851558376970&ev=PageView&noscript=1"
+/></noscript>
+
+<!-- End Meta Pixel Code -->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P84FTNQL');</script>
+<!-- End Google Tag Manager -->
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P84FTNQL"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div class="container">
+
+<div class="form">
+<h2>Efatá Seguros - Análise Consultiva Gratuita</h2>
+<p>Preencha o formulário e receba uma análise personalizada para proteger sua clínica.</p>
+
+<form id="leadForm" action="https://api.web3forms.com/submit" method="POST">
+
+<input type="hidden" name="access_key" value="bdf5e2f1-5680-479d-b6de-10f2e7ec7e16">
+<input type="hidden" name="redirect" value="obrigado.html">
+
+<label>Nome completo</label>
+<input type="text" name="nome" required>
+
+<label>WhatsApp</label>
+<input type="text" name="whatsapp" required>
+
+<label>E-mail</label>
+<input type="email" name="email" required>
+
+<label>Profissão</label>
+<select name="profissao" required>
+<option value="">Selecione</option>
+<option>Dentista</option>
+<option>Proprietário de Clínica</option>
+<option>Gestor</option>
+</select>
+
+<label>Sua clínica possui seguro?</label>
+<select name="possui_seguro" required>
+<option value="">Selecione</option>
+<option>Sim</option>
+<option>Não</option>
+</select>
+
+<label>Apólice vence em quanto tempo?</label>
+<select name="vence_em">
+<option value="">Selecione</option>
+<option>Até 30 dias</option>
+<option>30 a 60 dias</option>
+<option>60 a 90 dias</option>
+<option>Não sei</option>
+</select>
+
+<label>Deseja orientação agora?</label>
+<select name="orientacao_agora" required>
+<option value="">Selecione</option>
+<option>Sim</option>
+<option>Depois</option>
+</select>
+
+<button type="submit">
+QUERO PROTEGER MINHA CLÍNICA AGORA
+</button>
+
+</form>
+</div>
+
+<div class="copy">
+<h1>Sua clínica está realmente protegida contra processos e prejuízos?</h1>
+
+<p>
+Um único erro involuntário pode gerar indenizações,
+custos jurídicos e danos à reputação.
+<strong>O Pacote Seguro Clínica/Odontológica existe para evitar isso.</strong>
+</p>
+
+<div class="block">
+✔ <strong>Responsabilidade Civil Profissional</strong><br>
+Defesa jurídica e indenizações cobertas
+</div>
+
+<div class="block">
+✔ <strong>Seguro Empresarial</strong><br>
+Estrutura, equipamentos e faturamento protegidos
+</div>
+
+<div class="block">
+✔ <strong>Seguro de Equipamentos</strong><br>
+Aparelhos odontológicos e tecnologia
+</div>
+
+<div class="block">
+✔ <strong>Vida em Grupo</strong><br>
+Proteção e benefício para funcionários
+</div>
+
+<div class="footer">
+✔ Atendimento consultivo • ✔ Sem compromisso • ✔ Proposta personalizada • ✔ Efatá Seguros Corretora Humanizadada
+</div>
+</div>
+
+</div>
+
+<script>
+document.getElementById("leadForm").addEventListener("submit", function(){
+
+const nome = document.querySelector("[name=nome]").value;
+const whatsapp = document.querySelector("[name=whatsapp]").value;
+const email = document.querySelector("[name=email]").value;
+const profissao = document.querySelector("[name=profissao]").value;
+const possui = document.querySelector("[name=possui_seguro]").value;
+const vence = document.querySelector("[name=vence_em]").value;
+const orientacao = document.querySelector("[name=orientacao_agora]").value;
+
+const mensagem = `Novo Lead Clínica:
+
+Nome: ${nome}
+WhatsApp: ${whatsapp}
+Email: ${email}
+Profissão: ${profissao}
+Possui Seguro: ${possui}
+Vence em: ${vence}
+Quer orientação agora: ${orientacao}`;
+
+const url = "https://wa.me/5511999999999?text=" + encodeURIComponent(mensagem);
+
+window.open(url, "_blank");
+
+});
+</script>
+
+</body>
+
+</html>
